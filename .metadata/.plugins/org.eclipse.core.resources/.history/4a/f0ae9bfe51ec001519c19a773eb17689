@@ -1,0 +1,8 @@
+
+
+class HelloWorld {
+  def main(args: Array[String]): Unit = {
+    var sentence : String = "HelloScala"
+    
+  }
+}
