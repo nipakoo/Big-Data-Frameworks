@@ -1,0 +1,4 @@
+Correlation between energy rate and cpu load: 0.008978932286389182
+Correlation between energy rate and screen brightness: -2.5505406072674313E-4
+Correlation between energy rate and wifi link speed: 0.002433415320945404
+Correlation between energy rate and wifi signal strength: -0.017981212297007505

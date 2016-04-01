@@ -11639,3 +11639,12 @@ java.lang.AssertionError: assertion failed: Race condition detected: You are run
 
 !ENTRY org.scala-ide.sdt.core 1 0 2016-03-31 21:44:49.884
 !MESSAGE Timeout while resolving hyperlink in /home/niko/Projects/Big-Data-Frameworks/Exercise-set-2/Solutions/src/bdf/exercise2/nikokortstrom/Solutions.scala at: offset: 3803, length: 0
+!SESSION 2016-04-01 16:14:05.659 -----------------------------------------------
+eclipse.buildId=4.3.0-vfinal-2015-12-01T15:55:22Z-Typesafe
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 1 0 2016-04-01 20:12:01.949
+!MESSAGE Timeout while resolving hyperlink in /home/niko/Projects/Big-Data-Frameworks/Exercise-set-2/Solutions/src/bdf/exercise2/nikokortstrom/Solutions.scala at: offset: 2704, length: 0
