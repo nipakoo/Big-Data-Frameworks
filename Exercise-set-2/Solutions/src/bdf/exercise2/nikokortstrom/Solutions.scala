@@ -108,10 +108,11 @@ object Solutions {
     
     var i = 0
     for (i <- 0 to data.length-1) {
+      val value = data(i)
       if (i < data.length-1) {
-        pw.write(data(i) + ", ")
+        pw.write(i + ", " + value.doubleValue() + ", ")
       } else {
-        pw.write(""+data(i))
+        pw.write(i + ", "+ value.doubleValue())
       }
     }
     
@@ -131,21 +132,38 @@ object Solutions {
     val energy_wifi_speed_correlation = exercise4(energy_rate, wifi_link_speed)
     val energy_wifi_strength_correlation = exercise4(energy_rate, wifi_signal_strength)
     
-    write_doubles_to_file("results/energy.txt", energy_rate.take(100))
-    write_doubles_to_file("results/cpu.txt", cpu_load.take(100))
-    write_doubles_to_file("results/screen.txt", screen_brightness.take(100))
-    write_doubles_to_file("results/speed.txt", wifi_link_speed.take(100))
-    write_doubles_to_file("results/strength.txt", wifi_signal_strength.take(100))
+    write_doubles_to_file("energy.txt", energy_rate.take(100))
+    write_doubles_to_file("cpu.txt", cpu_load.take(100))
+    write_doubles_to_file("screen.txt", screen_brightness.take(100))
+    write_doubles_to_file("speed.txt", wifi_link_speed.take(100))
+    write_doubles_to_file("strength.txt", wifi_signal_strength.take(100))
 
-    val pw = new PrintWriter(new File("results/correlations.txt"))
-    pw.write("Correlation between energy rate and cpu load: " + energy_cpu_correlation + "\n")
-    pw.write("Correlation between energy rate and screen brightness: " + energy_screen_correlation + "\n")
-    pw.write("Correlation between energy rate and wifi link speed: " + energy_wifi_speed_correlation + "\n")
-    pw.write("Correlation between energy rate and wifi signal strength: " + energy_wifi_strength_correlation + "\n")
+    val pw = new PrintWriter(new File("correlations.txt"))
+    pw.write("Correlation between energy rate and cpu load: " + energy_cpu_correlation.doubleValue() + "\n")
+    pw.write("Correlation between energy rate and screen brightness: " + energy_screen_correlation.doubleValue() + "\n")
+    pw.write("Correlation between energy rate and wifi link speed: " + energy_wifi_speed_correlation.doubleValue() + "\n")
+    pw.write("Correlation between energy rate and wifi signal strength: " + energy_wifi_strength_correlation.doubleValue() + "\n")
     pw.close
   }
   
+  def multiple_correlation(x_rdd : RDD[Double], y_rdd : RDD[Double], z_rdd : RDD[Double]) : Double = {
+    return 0.0
+  }
+  
+  def partial_correlation(x_rdd : RDD[Double], y_rdd : RDD[Double], z_rdd : RDD[Double]) : Double = {
+    return 0.0
+  }
+  
+  def semi_partial_correlation(x_rdd : RDD[Double], y_rdd : RDD[Double], z_rdd : RDD[Double]) : Double = {
+    return 0.0
+  }
+  
   def exercise6(sc : SparkContext) {
+    val data = sc.textFile("carat-context-factors-percom.csv")
+    val energy_rate = data.map(line => line.split(";")(0).toDouble)
+    val wifi_link_speed = data.map(line => line.split(";")(12).toDouble)
+    val wifi_signal_strength = data.map(line => line.split(";")(13).toDouble)
+    
     
   }
   
@@ -203,7 +221,7 @@ object Solutions {
     //println("Pearson correlation of test data sets x and y: " + answer_4)
     
     /* Run exercise5 code */
-    exercise5(sc)
+    //exercise5(sc)
     /* Run exercise6 code */
     exercise6(sc)
   }
