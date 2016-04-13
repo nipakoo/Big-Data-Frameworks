@@ -1,0 +1,29 @@
+package bdf.exercise3.nikokortstrom
+
+// Name: Niko Kortström
+// Student number: 014154573
+
+import java.io._
+import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.SparkContext._
+import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
+import org.apache.spark.rdd.RDD
+import scala.math
+
+object Solutions {
+   /* Definitions of other functions of Solutions go here */
+  d
+  
+  
+  def main(args: Array[String]) {
+    val conf = new SparkConf().setAppName(getClass.getName).setMaster("local[2]")
+    val sc = new SparkContext(conf)
+    /* Run exercise2 code */
+    exercise2(sc)
+    /* Run exercise3 code */
+    exercise3(sc)
+    /* Run exercise4 code */
+    exercise4(sc)
+    /* Run exercise5 code */
+  }
+}

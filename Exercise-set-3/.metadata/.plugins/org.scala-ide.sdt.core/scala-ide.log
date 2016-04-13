@@ -1,0 +1,136 @@
+2016-04-13 22:53:56,119  WARN [ModalContext] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 22:53:56,121  WARN [ModalContext] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 22:53:56,539  WARN [Worker-7] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 22:53:56,568  WARN [Worker-7] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:02:57,507  WARN [Worker-7] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:02:57,508  WARN [Worker-7] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:03:13,222  WARN [Worker-6] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:03:13,223  WARN [Worker-6] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:03:31,699  WARN [Worker-10] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:03:31,700  WARN [Worker-10] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:07:56,601  WARN [Worker-14] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:07:56,602  WARN [Worker-14] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:08:25,045  WARN [Worker-14] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:08:25,046  WARN [Worker-14] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:08:39,743  WARN [Worker-11] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:08:39,744  WARN [Worker-11] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:09:01,543  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2016-04-13 23:09:01,543  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2016-04-13 23:09:20,743  WARN [main] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:09:20,743  WARN [main] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:09:25,183  WARN [Worker-11] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:09:25,183  WARN [Worker-11] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:09:25,560  WARN [Java indexing] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:09:25,560  WARN [Java indexing] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:09:29,032 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - An error occurred while trying to create a file.
+org.eclipse.core.internal.resources.ResourceException: Resource '/Solutions/src/bdf/exercise3/nikokortstrom/Solutions.scala' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.File.create(File.java:112)
+	at org.eclipse.core.internal.resources.File.create(File.java:188)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply$mcV$sp(FileUtils.scala:98)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:89)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:89)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.util.eclipse.FileUtils$.createFile(FileUtils.scala:89)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:284)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:128)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:102)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:233)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:290)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2251)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:356)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:465)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.openFileInSrcDir$1(NewFileWizard.scala:364)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.org$scalaide$ui$internal$wizards$NewFileWizard$$openEditor(NewFileWizard.scala:375)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:287)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:136)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+2016-04-13 23:09:29,294  WARN [Worker-12] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:09:29,294  WARN [Worker-12] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:15:43,145  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-04-13 23:15:43,146  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-04-13 23:15:43,452  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:15:43,659  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:15:43,861  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:16:16,552  WARN [main] - ScalaProject - Project Solutions has platform default sourceLevel.
+2016-04-13 23:16:16,552  WARN [main] - ScalaProject - Project Solutions runs on platform default installation.
+2016-04-13 23:20:13,901  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2016-04-13 23:20:13,901  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2016-04-13 23:20:14,226  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:20:14,426  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:20:14,627  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - Exception in thread "org.scalaide.ui.internal.reconciliation.ScalaReconciler"
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - java.lang.NullPointerException
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.scalaide.ui.internal.editor.outline.ScalaOutlineReconcilingStrategy.reconcile(ScalaOutlineReconcilingStrategy.scala:26)
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+2016-04-13 23:20:14,628 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-04-13 23:30:28,742 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-13 23:30:28,795 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-13 23:30:28,795 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2016-04-13 23:30:28,795 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
